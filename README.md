@@ -5,6 +5,7 @@ GCalGrow is a Chrome extension that hides the Google bar and the Search bar in t
 ## Version 2.0
 * Switching to using CSS rather than JavaScript to hide UI components. When using Javascript, the UI components are removed after the page is loaded, causing a brief "flash" of the UI components before the Javascript executes and removes them. CSS is applied before the page renders, preventing a flash from occurring.
 * Add "Hide/Show" buttons to the hidden UI components.
+
 ## Version 3.0
 * Allow hiding (and showing) the left sidebar.
 
