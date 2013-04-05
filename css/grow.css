@@ -14,4 +14,8 @@
   #mainbody {
     margin-left: 0 !important;
   }
+
+  #topLeftNavigation {
+    left: 155px !important;
+  }
 }
