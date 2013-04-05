@@ -18,4 +18,8 @@
   #topLeftNavigation {
     left: 155px !important;
   }
+
+  #topRightNavigation > .button-strip {
+    margin-left: 0 !important;
+  }
 }
