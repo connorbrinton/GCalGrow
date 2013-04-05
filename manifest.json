@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.google.com/calendar", "https://www.google.com/calendar/*"],
-      "js": ["removeGoogleBar.js"]
+      "css": ["css/grow.css"]
     }
   ]
 }

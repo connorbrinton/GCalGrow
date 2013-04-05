@@ -1,0 +1,17 @@
+#gb {
+  display:none;
+}
+
+#ntowner {
+  top: 0 !important;
+}
+
+@media all and (max-width: 1023px) {
+  #nav {
+    display: none;
+  }
+
+  #mainbody {
+    margin-left: 0 !important;
+  }
+}
