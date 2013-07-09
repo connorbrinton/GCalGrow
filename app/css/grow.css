@@ -1,0 +1,44 @@
+/* Removes the Google Bar */
+#gb {
+  display:none;
+}
+
+#ntowner {
+  top: 0 !important;
+}
+
+/* Extends the task frame, so that the full schedule can
+ * be seen when choosing due dates */
+.tc-bubble-framecontainer iframe {
+  height: 240px !important;
+}
+
+/* Removes unnecessary whitespace on the right of the calendar */
+/*#gridcontainer {
+  margin-right: 0 !important;
+}
+
+#gadgetcell {
+  margin-right: 0 !important;
+  width: 206px !important;
+}*/
+
+
+/* Removes the left nav at small screen sizes */
+@media all and (max-width: 1023px) {
+  #nav {
+    display: none;
+  }
+
+  #mainbody {
+    margin-left: 0 !important;
+  }
+
+  #topLeftNavigation {
+    left: 155px !important;
+  }
+
+  #topRightNavigation > .button-strip {
+    margin-left: 0 !important;
+  }
+}
